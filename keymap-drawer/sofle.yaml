@@ -1,8 +1,8 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
-  BAS: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', Esc, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', ↹, A, S, D, F, G, H, J, K, L,
-    ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$',
-    '$$mdi:apple-keyboard-control$$', LOW, ⏎, ␣, RAI, '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$']
+  BAS: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '$$mdi:backspace-outline$$', ↹, A, B, C, D, E, F, G, H, I, J, Page Up, Caps Lock, K, L, M, N, O, P,
+    Q, R, S, T, Page Down, '$$mdi:apple-keyboard-command$$', U, V, W, X, Y, MUTE, MUTE, Z, ',', ., /, ;, '''', '$$mdi:apple-keyboard-option$$', LOW, '$$mdi:apple-keyboard-control$$',
+    '$$mdi:apple-keyboard-shift$$', ␣, ⏎, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-control$$', '[', ']']
   LOW:
   - '`'
   - F1
@@ -55,9 +55,9 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,7 +77,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Insert
   - Print Scrn
   - CMENU
@@ -116,12 +116,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
